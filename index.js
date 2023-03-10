@@ -125,9 +125,15 @@ for (let i=1; i <= 60; i++) {
 }
 
 
+console.log(1+2+"="+1+2);
+// 3=12로 출력됨
 
+let num1 = 5;
+let num2 = 5;
+console.log(num2 + num1 / 5 + 5);
+// 11
+// 연산자 우선순위.....
 
-
-
-
+console.log((num2 + num1) / (5 + 5));
+// 1
 
